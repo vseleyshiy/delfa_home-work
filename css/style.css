@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;  
+}
+.wrapper {
+    min-height: 100%;
+    background: linear-gradient(#302b63,#24243e);
+}
+
+ul,ol {
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol>li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header {
+    padding-top: 10px;
+    margin: 0 auto;
+}
+.header__nav {
+    background-color: rgb(0, 0, 114);
+    height: 50px;
+    border-radius: 5px;
+}
+.header__list {
+    display: flex;
+    column-gap: 10px;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+}
+.header__item {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    align-items: center;
+    display: flex;
+    padding: 10px;
+}
+.header__link {
+    color: white;
+}
+.header__link.active {
+    text-decoration: underline;
+}
+
+.hero {
+    margin-top: 20px;
+    width: 100%;
+}
+.hero__content {
+    border: 2px solid black;
+    width: 40%;
+    border-radius: 10px;
+    background-color: rgb(48, 65, 114);
+    text-align: center;
+    margin: 0 auto;
+}
+.hero__title {
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.hero__info {
+    color: white;
+}
+
+.hero__movies {
+    display: flex;
+    column-gap: 20px;
+}
+.hero__movie {
+    border: 2px solid black;
+    background-color: rgb(65, 87, 155);
+    border-radius: 10px;
+}
+.hero__movie-title {
+    background-color: rgb(49, 49, 158);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.hero__item {
+    color: rgb(194, 194, 194);
+}
+.hero__decoration {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 20px;
+    justify-content: center;
+}
+.hero__img-wrap {
+    width: 300px;
+}
+.hero__img {
+    border: 2px solid black;
+}
+.hero__img-wrap:hover {
+    transform: rotate(360deg);
+    transition: transform 1s ease;
+}
+.table {
+    color: white;
+    border: 2px solid black;
+    text-align: center;
+    background-color: rgb(2, 0, 147);
+}
+
+.table:hover {
+    transform: translateX(200px);
+    transition: transform 1s ease;
+}
+
+.table__td {
+    border: 2px solid black;
+    margin: 0;
+    padding: 10px;
+}
+
